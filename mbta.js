@@ -35,3 +35,8 @@ const total= toParkStreet + fromParkStreet
 }
 
 
+
+//Test 
+stopsBetweenStations('Red', 'Alewife', 'Red', 'Alewife') // 0 stops
+stopsBetweenStations('Red', 'Alewife', 'Red', 'South Station') // 7 stops
+stopsBetweenStations('Red', 'South Station', 'Green', 'Kenmore') // 6 stops
